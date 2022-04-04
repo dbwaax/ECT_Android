@@ -36,7 +36,12 @@
 >  ```
 > 动态注册权限略
 
-**③二维码扫描**  
+**④数据可视化**  
+>在手机APP的数据可视化上，主要使用了Echart + HelloChart +WebView组合的方式对数据进行可视化展示，本身手机APP不负责任何计算工作，只需要通过HTTP请求获取到对应的数据并重绘数据图表即可实现简单的数据可视化。在这个基础上通过定时器还增加了定时自动刷新数据的功能，可使得数据实时的刷新。
+
+**⑤推送接受服务**  
+>在服务器有配置MQTT服务，并提供了定时的消息推送。为了在APP打开的时候正常的获取到推送的内容，需要将APP客户端看作一个订阅者，在APP初始化时就进行MQTT消息的订阅，这样就可以成功的获取订阅数据，也就是定时推送消息。
+
 ## 4.效果展示
 ![image](https://github.com/dbwaax/ECT_windows/blob/master/image/windows1.png)  
 ![image](https://github.com/dbwaax/ECT_windows/blob/master/image/windows2.png)  
