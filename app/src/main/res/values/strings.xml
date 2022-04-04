@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">交通大数据平台</string>
+    <string name="UID">用户名</string>
+    <string name="PSW">密码</string>
+    <string name="test1">123456</string>
+    <string name="title_activity_second">您的空气指标</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+    <string name="tempS_str">\n温度\n\n\n\n状态:未连接\n值:加载中"</string>
+    <string name="humS_str">"\n湿度\n\n\n\n状态:未连接\n值:加载中"</string>
+    <string name="co2_str">\n二氧化碳\n\n\n\n状态:未连接\n值:加载中"</string>
+    <string name="pm25_str">\n可吸入颗粒物\n\n\n\n状态:未连接\n值:加载中"</string>
+    <string name="Title_hum"><u>室内湿度趋势图表</u></string>
+    <string name="Title_temp"><u>室内温度趋势图表</u></string>
+    <string name="Title_co2"><u>室内二氧化碳趋势图表</u></string>
+    <string name="Title_pm25"><u>室内PM2.5趋势图表</u></string>
+    <string name="Title_Acessment"><u>总质量评价图表</u></string>
+    <string name="sug_temp0"><u>当前温度获取中\n\n获取中</u></string>
+    <string name="sug_temp1"><u>当前温度大于28.0℃\n\n炎热</u></string>
+    <string name="sug_temp2"><u>当前温度24.0℃-27.9℃\n\n热舒适</u></string>
+    <string name="sug_temp3"><u>当前温度21.0℃-23.9℃\n\n舒适</u></string>
+    <string name="sug_temp4"><u>当前温度18.0℃-20.9℃\n\n凉舒适</u></string>
+    <string name="sug_temp5"><u>当前温度15.0℃-17.9℃\n\n温凉</u></string>
+    <string name="sug_temp6"><u>当前温度11.0℃-14.9℃\n\n凉</u></string>
+    <string name="sug_temp7"><u>当前温度6.0℃-10.9℃\n\n冷</u></string>
+    <string name="sug_temp8"><u>当前温度小于6.0℃\n\n寒冷</u></string>
+    <string name="advice0">获取中</string>
+    <string name="advice1">建议着装：夏季着装、短袖、短裙、短裤、薄型T恤衫等</string>
+    <string name="advice2">建议着装：夏季着装、短袖、短裙、短裤、薄型T恤衫等\n\n年老体弱者：单层薄衬裤、薄型棉衬</string>
+    <string name="advice3">建议着装：春秋过度装、单层薄衫裤、薄型棉衫等\n\n年老体弱者：针织长袖衬衫+背心、长裤、薄型套装</string>
+    <string name="advice4">建议着装：针织长袖衬衫+背心、长裤、薄型套装等\n\n年老体弱者：春秋套装、薄羊毛衫+夹克或西服套装</string>
+    <string name="advice5">建议着装：春秋套装、羊毛衫、西服套装、马甲+夹克配长裤\n\n年老体弱者：厚羊毛衫+夹克或风衣</string>
+    <string name="advice6">建议着装：春秋套装、毛衣、风衣、毛套装、西服套装\n\n年老体弱者：一到两件羊毛衫+大衣或毛套装</string>
+    <string name="advice7">建议着装：春秋套装、大衣、毛套装、皮夹克\n\n年老体弱者：冬季套装、棉衣、冬大衣、皮夹克</string>
+    <string name="advice8">建议着装：冬季套装、棉衣、冬大衣、皮夹克、内着衬衫或羊毛内衣+毛衣再外罩大衣\n\n年老体弱者：尽量少外出</string>
+    <string name="Hint_Area">请输入您测试编号</string>
+    <array name="sample_list">
+        <item>@string/action_settings</item>
+        <item>@string/action_settings</item>
+        <item>@string/action_settings</item>
+        <item>@string/action_settings</item>
+        <item>@string/action_settings</item>
+    </array>
+    <string name="title_activity_sencond">SencondActivity</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+</resources>

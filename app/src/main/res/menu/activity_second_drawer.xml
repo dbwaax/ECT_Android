@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Temperature"
+            android:icon="@drawable/ic_temperature"
+            android:title="动态热力图" />
+        <item
+            android:id="@+id/Humidity"
+            android:icon="@drawable/ic_humidity"
+            android:title="出行方式分析" />
+        <item
+            android:id="@+id/CO2"
+            android:icon="@drawable/ic_co2"
+            android:title="人口驻留分析" />
+        <item
+            android:id="@+id/PM25"
+            android:icon="@drawable/ic_pm25"
+            android:title="异常滞留" />
+    </group>
+
+    <item android:title="环境评估">
+        <menu>
+            <item
+                android:id="@+id/Assessment"
+                android:icon="@drawable/ic_assessment"
+                android:title="评估" />
+            <item
+                android:id="@+id/Suggestion"
+                android:icon="@drawable/ic_suggestion"
+                android:title="退出账号" />
+            <item
+                android:id="@+id/Reset"
+                android:icon="@drawable/ic_share"
+                android:title="重置" />
+        </menu>
+    </item>
+
+</menu>

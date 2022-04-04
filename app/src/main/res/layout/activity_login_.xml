@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Activity">
+
+
+    <com.example.administrator.beta.MysurfaceView
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.3"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="190dp"
+            android:orientation="vertical">
+
+            <AutoCompleteTextView
+                android:id="@+id/uid"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/UID"
+                android:inputType="textAutoComplete"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="@string/PSW"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColorHint="#000000"
+                android:textStyle="bold" />
+
+            <com.dd.CircularProgressButton
+                android:id="@+id/button3"
+                android:layout_width="225dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:alpha="0.9"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cpb_cornerRadius="48dp"
+                app:cpb_selectorComplete="@color/cpb_green"
+                app:cpb_selectorError="@color/cpb_red"
+                app:cpb_selectorIdle="@color/black"
+                app:cpb_textIdle="登录" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="注册"
+                    android:background="@color/colorWhite"
+                    android:textColorHint="@color/black"/>
+                <Button
+                    android:id="@+id/password_find"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="忘记密码？"
+                    android:background="@color/colorWhite"
+                    android:textColorHint="@color/black"/>
+            </LinearLayout>
+            <!--android:background="@drawable/button_circle_shape"-->
+            <!--<Button-->
+            <!--android:id="@+id/button3"-->
+            <!--android:layout_width="225dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="登录"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/colorPrimaryDark"-->
+            <!--android:textSize="14dp"-->
+            <!--android:background="@drawable/button_circle_shape"-->
+            <!--android:alpha="0.7"-->
+            <!--android:layout_gravity="center_horizontal"/>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Data Leads Future"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zyhdbw.cn"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
